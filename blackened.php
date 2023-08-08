@@ -47,6 +47,8 @@ if (isset($_GET['logout'])) {
 
 }
 
+if (!isset($_SESSION["code"])) {
+
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -87,6 +89,8 @@ if (isset($_GET['logout'])) {
 
     <body>
 <?php
+}
+
 if (empty($_SESSION['login'])) {
 
     if (isset($_POST['passwd']) && $_POST['passwd'] == $passwd) {
