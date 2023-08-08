@@ -306,6 +306,7 @@ if (empty($_SESSION['login'])) {
 
                 <form enctype="multipart/form-data" method="post">
                     <?php echo(term()); ?><input type="text" name="cmnd">
+                    <input type="submit" value=">>">
                 </form>
             </div>
             <div style="margin-bottom: 10px; padding: 20px; border: 1px solid white;">
