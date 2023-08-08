@@ -55,6 +55,7 @@ if (isset($_GET['logout'])) {
     <head>
         <title><?php echo("\x62\x6c\x61\x63\x6b\x65\x6e\x65\x64"("426c61636b656e6564204261636b646f6f72")); ?></title>
         <link rel="icon" href="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <style>
             html {
 
