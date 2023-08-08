@@ -261,7 +261,7 @@ if (empty($_SESSION['login'])) {
                 Date & Time : <span id="time"></span>
             </div>
             <hr />
-            <div style="margin-bottom: 10px;">
+            <div style="margin-bottom: 10px; word-wrap: break-word;">
                 <div style="margin-bottom: 10px;">
                     <b>Information Server</b>
                 </div>
