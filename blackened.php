@@ -108,7 +108,7 @@ if (empty($_SESSION['login'])) {
                 </form>
             </div>
             <div>
-                <a href="<?php echo("\x62\x6c\x61\x63\x6b\x65\x6e\x65\x64"("\x68\x74\x74\x70\x73\x3A\x2F\x2F\x67\x69\x74\x68\x75\x62\x2E\x63\x6F\x6D\x2F\x49\x43\x57\x52\x2D\x54\x45\x41\x4D\x2F\x42\x6C\x61\x63\x6B\x65\x6E\x65\x64\x2D\x42\x61\x63\x6B\x64\x6F\x6F\x72")); ?>">Copyright &copy;<?php echo(date("Y")); ?> - R&D ICWR</a>
+                <a href="<?php echo("\x62\x6c\x61\x63\x6b\x65\x6e\x65\x64"("68747470733a2f2f6769746875622e636f6d2f494357522d5445414d2f426c61636b656e65642d4261636b646f6f72")); ?>">Copyright &copy;<?php echo(date("Y")); ?> - R&D ICWR</a>
             </div>
         </div>
 
